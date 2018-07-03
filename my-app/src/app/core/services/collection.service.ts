@@ -6,7 +6,7 @@ import { COLLECTION } from '../collection';
   providedIn: 'root'
 })
 export class CollectionService {
-private _collection: Item[];
+  private _collection: Item[];
   constructor() {
       this.collection = COLLECTION;
    }
@@ -21,6 +21,6 @@ private _collection: Item[];
    */
   public set collection(col: Item[]) {
    this._collection = col;
+  }
+
 }
-
-

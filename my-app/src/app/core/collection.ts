@@ -1,6 +1,7 @@
 import { State } from '../shared/enums/state.enum';
+import { Item } from '../shared/interfaces/item';
 
-export const COLLECTION:Item[]= [
+export const COLLECTION: Item[] = [
   {
     id: 'a1',
     name: 'Christ',
